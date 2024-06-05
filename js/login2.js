@@ -106,6 +106,6 @@ const check_input = () => {
            session_check(); // 세션 유무 검사
         }
 
-        document.getElementById("login_btn").addEventListener('click', check_input);
+        document.getElementById("logout_btn").addEventListener('click', check_input);
 
                 
