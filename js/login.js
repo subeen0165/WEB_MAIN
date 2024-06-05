@@ -24,8 +24,8 @@ const check_input = () => {
     const passwordValue = passwordInput.value.trim();
     
     if (emailValue === '') {
-    alert('이메일을 입력하세요.');
-    return false;
+        alert('이메일을 입력하세요.');
+        return false;
     }
     if (passwordValue === '') {
     alert('비밀번호를 입력하세요.');
